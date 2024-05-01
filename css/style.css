@@ -85,8 +85,37 @@ nav ul{
     display: none;
 }
 
+.reveal-mobile-menu{
+    display: block !important ;
+}
+
 .nav-list-items-mobile{
+    margin-top: 1rem;
     display: none;
+    background-color: white;
+    color: hsl(210, 4%, 67%);
+    padding: 2rem;
+}
+
+.nav-list-items-mobile ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-list-items-mobile ul li{
+    padding: 1rem;
+}
+
+.nav-list-items-mobile button{
+    background-color: hsl(51, 100%, 49%);
+    border: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 700;
+    border-radius: 25px;
+
 }
 
 .hero-sub{
@@ -339,6 +368,10 @@ footer img[alt="logo"]{
         height: 700px;
     }
 
+    .nav-list-items-mobile{
+        display: none;
+    }
+
     .hero-sub h1{
         font-size: 30px;
         font-weight: 900;
@@ -393,6 +426,7 @@ footer img[alt="logo"]{
         padding: 10px 15px;
         border-radius: 20px;
         font-weight: 900;
+        cursor: pointer;
     }
     
     
@@ -451,7 +485,7 @@ footer img[alt="logo"]{
     
 
     
-
+}
 /* 
 header{
     width: 85%;
