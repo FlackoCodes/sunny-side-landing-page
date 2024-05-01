@@ -1,7 +1,7 @@
 let hamButton = document.querySelector('.mobile-btn');
 let mobileMenu = document.querySelector('.nav-list-items-mobile');
 
-const openToggle = ()=>{
+const openMobileMenu = ()=>{
     if (mobileMenu.classList.contains('reveal-mobile-menu')) {
         mobileMenu.classList.remove('reveal-mobile-menu')
     } else{
@@ -9,4 +9,4 @@ const openToggle = ()=>{
     }
 }
 
-hamButton.addEventListener('click', openToggle)
+hamButton.addEventListener('click', openMobileMenu)
